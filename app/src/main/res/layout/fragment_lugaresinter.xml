@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/colorUSB"
+    android:orientation="vertical">
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+       <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@color/colorUSB"
+           android:orientation="vertical"
+           android:paddingBottom="30dp">
+              <ViewAnimator
+                  android:id="@+id/imglinterno"
+                  android:layout_width="match_parent"
+                  android:layout_height="430dp"
+                  android:visibility="visible"></ViewAnimator>
+       <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@color/colorUSB"
+           android:orientation="horizontal">
+              <Button
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="right|center"
+                  android:text="Siguiente"
+                  android:textStyle="bold"
+                  android:layout_marginLeft="50dp"
+                  android:background="@drawable/style_button"
+                  android:id="@+id/lisigFoto"/>
+              <Button
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/liatrasFoto"
+                  android:layout_marginLeft="100dp"
+                  android:textStyle="bold"
+                  android:layout_gravity="left"
+                  android:background="@drawable/style_button"
+                  android:text="Atrás"/>
+              </LinearLayout>
+              <Button
+                  android:layout_width="190dp"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/generarR"
+                  android:layout_marginTop="10dp"
+                  android:layout_gravity="center"
+                  android:background="@drawable/style_button"
+                  android:textStyle="bold"
+                  android:text="Crear Ruta"/>
+       </LinearLayout>
+</ScrollView>
+</LinearLayout>

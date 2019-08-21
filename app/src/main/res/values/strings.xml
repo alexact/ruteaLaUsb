@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">RuteaLaUsb</string>
+    <string name="boton">boton</string>
+    <string name="title_activity_maps1">Map</string>
+    <string name="sitio">Sitios Turisticos</string>
+    <string name="ubicacion">Mi Ubicacion</string>
+    <string name="tiposMapas">Tipos de Mapas</string>
+    <string name="GPS">Ubicación del GPS</string>
+    <string name="bcomenzar">Comenzar</string>
+    <string name="tTitulo">RUTEA LA USB</string>
+    <string name="title_activity_menu_map">menuMap</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    //Fragment de ruta
+    <string name="TituloRuta">Crear una Ruta</string>
+    <string name="btnDeRuta">Generar Ruta</string>
+    <string name="btnDeOrigen">Actualizar Punto de origen</string>
+    <string name="btnDestino">Seleccionar Destino</string>
+    <string name="PDestino">Punto Destino</string>
+    <string name="textoOrigen">Actualice su punto de origen</string>
+    <string name="POrigen">Punto origen</string>
+    //Solicitudes
+    <string name="TituloSolic">Solicitudes de Usuario</string>
+    <string name="listSol">Nombre Solicitud 1</string>
+    <string name="DescSol">Descripción Solicitud 1</string>
+    //Recorrido
+    <string name="SelecLugar">Seleccionar Lugar</string>
+    <string name="resConsultar"></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="imagen">imagen</string>
+    <string name="title_activity_imagen360">Imagen360</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

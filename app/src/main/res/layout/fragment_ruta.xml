@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:configChanges="orientation|screenSize" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorUSB"
+    android:isScrollContainer="true"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawHorizontalTrack="true"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+
+    <TextView
+        android:id="@+id/TituloRuta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/TituloRuta"
+        android:textAppearance="@style/Animation.AppCompat.Dialog"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="#FFAA68"
+        android:orientation="vertical"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+
+        <TextView
+            android:id="@+id/textOrigen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="0dp"
+            android:gravity="start"
+            android:padding="5dp"
+            android:text="@string/POrigen"
+            android:textAppearance="@style/Animation.AppCompat.Dialog"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/pOrigen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginStart="60dp"
+            android:padding="5dp"
+            android:text="@string/textoOrigen"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="@string/PDestino"
+            android:textAppearance="@style/Animation.AppCompat.Dialog"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvDestino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="10dp"
+            android:padding="5dp"
+            android:text="Seleccione en el mapa un punto"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btnSeleccionar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#33cc33"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="left"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:text="Generar Ruta en Mapa"
+        />
+    <Button
+        android:id="@+id/btnSeleccionar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#33cc33"
+        android:layout_gravity="right"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:text="Generar Ruta 3D"
+        android:layout_marginStart="10dp"
+        android:layout_marginRight="10dp"
+        />
+</LinearLayout>
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/mapRecorrido"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            tools:context=".MapsActivity"
+            android:configChanges="orientation|screenSize" />
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

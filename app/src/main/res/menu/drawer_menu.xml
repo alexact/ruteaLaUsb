@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ruta"
+            android:icon="@drawable/ic_llegardestino"
+            android:title="Generar Ruta" />
+        <item
+            android:id="@+id/nav_recorrer"
+            android:icon="@drawable/ic_recorrelibre"
+            android:title="Visitar un lugar de la USB" />
+        <item
+            android:id="@+id/nav_Solicitud"
+            android:icon="@drawable/ic_solicitudes"
+            android:title="Solicitudes" />
+    </group>
+
+
+</menu>
